@@ -1,0 +1,37 @@
+This folder contains: Scaled, trabecularized bone finger STL files ready to print with MeshMixer supports.
+
+Find all my hand bones, trabecularized with mesh mixer supports ready to be printed, in the Hand bone STL files were originally downloaded from Thingiverse here: http://www.thingiverse.com/thing:15342
+
+There are 27 finger bones total. Finger bones label 1 to 5 corresponding to the thumb bones to the pinky bones, respectfully. Note that 1MP starts at the first finger, not the thumb, and 4MP ends at the pinky bone. All bones and naming conventions:
+
+DP = Distal phalange. 1DP, 2DP, 3DP, 4DP, 5DP.
+MP = Manual intermediate phalange. 1MP, 2MP, 3MP, 4MP.
+PP = Manual proximal phalange. 1PP, 2PP, 3PP, 4PP, 5PP.
+MC = Metacarpal. 1MC, 2MC, 3MC, 4MC, 5MC.
+TRP = Trapezium
+TRZ = Trapezoid
+SCP = Scaphoid
+CAP = Capitate
+LUN = Lunate
+TRQ = Triquetral
+PIS = Pisiform
+HAM = Hamate
+All the bone files in this thingiverse download are the same size, which is anatomically incorrect. I rescaled them in Fusion360 based approximate sizes from http://eskeletons.org/boneviewer/nid/12537/region/hands/bone/Articulated%20hand.
+
+The hand, from wrist to the tip of the third finger, is 8", a somewhat standard adult hand size. Some of the bones in the thingiverse link are labeled incorrectly. There are also two bones missing (1MC and 4PP). I added fake bones by rescaling copies of other bones.
+
+After rescaling the models, the bones were populated with a trabecular lattice using the software tool WithinMedical: http://www.autodesk.com/products/within/features/within-medical/all/list-view. The lattice settings used are:
+
+lattice target beam size = 0.3 mm
+lattice target pore size = 0.45 mm
+I used MeshMixer (http://www.meshmixer.com/) to generate support structures so the models could be printed on an Autodesk Ember Printer (https://ember.autodesk.com/).
+
+I printed the bone scaffolds in a photocurable PEGDA resin created by Chris Venter on Autodesk's Ember DLP printer. The Ember uses a web-based printer environment called Spark (http://www.emberprinter.com/). Simply upload the models I provided here to www.emberprinter.com after creating a free user account. The Spark print settings for our PEGDA resin are:
+
+Layer thickness = 50 microns
+First layer exposure time = 11 seconds
+Burn in layers = 4
+Burn in layer exposure time = 11 seconds
+Model Exposure time = 6.5 seconds
+Website I used to piece together finger bones:
+http://eskeletons.org/boneviewer/nid/12537/region/hands/bone/Articulated%20hand
